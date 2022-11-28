@@ -1,0 +1,27 @@
+{
+  "name": "@steveouyang/super-ep",
+  "version": "1.0.5",
+  "description": "基于Element-Plus扩展而成的组件库",
+  "main": "src/main.js",
+  "keywords": [
+    "epmenu",
+    "eptable",
+    "mypageheader",
+    "btngroup",
+    "epdialog"
+  ],
+  "author": "steveouyang",
+  "license": "ISC",
+  "scripts": {
+    "dev": "npx rollup -wc rollup.config.dev.js",
+    "build": "npx rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
